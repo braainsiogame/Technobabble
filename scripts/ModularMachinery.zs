@@ -65,7 +65,7 @@ val DeviceFrame = mods.modularmachinery.RecipeBuilder.newBuilder("DeviceFrame", 
 	DeviceFrame.addEnergyPerTickInput(200);
 	DeviceFrame.build();
 
-val BasicUniversalCable = mods.modularmachinery.RecipeBuilder.newBuilder("redstoneCondutance", "assemblermachine", 60);
+val BasicUniversalCable = mods.modularmachinery.RecipeBuilder.newBuilder("BasicUniversalCable", "assemblermachine", 60);
 	BasicUniversalCable.addItemInput(<ore:plateSteel>, 2);
 	BasicUniversalCable.addItemInput(<ore:ingotConductiveIron>);
 	BasicUniversalCable.addItemOutput(<mekanism:transmitter:0> * 8);
