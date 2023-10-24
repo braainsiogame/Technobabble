@@ -1,0 +1,14 @@
+name = "LittlePictureFrames"
+filename = "LittleFrames_WATERMEDIA_(by_Blake)_v1.1.2_mc1.12.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "501e8731ae4f32da20d3211bc7b7c53d6e832ca7"
+
+[update]
+[update.curseforge]
+file-id = 4738256
+project-id = 435557

@@ -1,0 +1,14 @@
+name = "Startup Timer"
+filename = "startuptimer-1.0.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "4b41bf1b3902b6fb8b9bb8e7c19f394adc82f8b5"
+
+[update]
+[update.curseforge]
+file-id = 4275356
+project-id = 782070

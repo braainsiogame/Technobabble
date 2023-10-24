@@ -1,0 +1,14 @@
+name = "AE2 Utilities"
+filename = "AE2Utilities-1.12.2-0.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "060e3ae7c1eb499be178097ef50910fe3f30c5e1"
+
+[update]
+[update.curseforge]
+file-id = 3647977
+project-id = 579963

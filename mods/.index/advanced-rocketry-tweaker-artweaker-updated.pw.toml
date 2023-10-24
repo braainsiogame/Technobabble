@@ -1,0 +1,14 @@
+name = "Advanced Rocketry Tweaker (ARTweaker) Updated"
+filename = "AdvancedRocketryTweaker-1.12.2-2.0.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "c73b3f74dc6a152cbb370fcd2270663038ad45de"
+
+[update]
+[update.curseforge]
+file-id = 3360086
+project-id = 496454

@@ -1,0 +1,14 @@
+name = "Mekanism Unofficial Edition: V10 Edition"
+filename = "MekanismAll-1.12.2-9.8.11.150-sddsd2332.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "83721d057a7f8092c0330ef04851f2b33bbdd77f"
+
+[update]
+[update.curseforge]
+file-id = 4464199
+project-id = 840735

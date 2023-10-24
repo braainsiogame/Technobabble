@@ -1,0 +1,14 @@
+name = "Thermal Conversion"
+filename = "ThermalConversion-1.12.2-2.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "75515b81f08ac78ae2e5afd9c71a93e3fa5f2906"
+
+[update]
+[update.curseforge]
+file-id = 2551214
+project-id = 247539

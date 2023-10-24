@@ -1,0 +1,14 @@
+name = "Pack Crash Info"
+filename = "packcrashinfo-1.0.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "35048f14c2d60040d57e8a4789a985c5b2507892"
+
+[update]
+[update.curseforge]
+file-id = 2621858
+project-id = 303808

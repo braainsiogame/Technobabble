@@ -1,0 +1,14 @@
+name = "Advanced Mortars"
+filename = "advancedmortars-1.12.2-1.7.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "10807093d22918c972e76c1089ca048f38ed285d"
+
+[update]
+[update.curseforge]
+file-id = 2780626
+project-id = 283777

@@ -1,0 +1,14 @@
+name = "External Tweaker"
+filename = "externaltweaker-1.12-0.3.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "f9530f934872e1fd95943a899a237a6eaefe28bb"
+
+[update]
+[update.curseforge]
+file-id = 2452858
+project-id = 270558

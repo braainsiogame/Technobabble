@@ -1,0 +1,14 @@
+name = "Too Many Efficiency Losses"
+filename = "tmel-1.12.2-1.4.0.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "f11b7b6cfe6bc5ef81f47f195693b2ea87309e3f"
+
+[update]
+[update.curseforge]
+file-id = 2742442
+project-id = 308851
