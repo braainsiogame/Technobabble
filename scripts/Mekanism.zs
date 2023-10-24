@@ -24,7 +24,7 @@ recipes.removeByRecipeName("mekanism:transmitter_6_alt");
 recipes.removeByRecipeName("mekanism:transmitter_6_alt_alt");
 recipes.removeByRecipeName("mekanism:transmitter_6_alt_alt_alt");
 // lord give me one more chance
-for item in <ore:hammers>.items {
+for items in <ore:hammers>.items {
 recipes.addShaped("transmitter!!!!!!! wooo!!!!!!!!!!!!!!!", <mekanism:transmitter:0>.withTag({tier:0}) * 4, [
 	[null, items.anyDamage().transformDamage(1), null],
 	[<ore:plateSteel>, <ore:ingotConductiveIron>, <ore:plateSteel>],
