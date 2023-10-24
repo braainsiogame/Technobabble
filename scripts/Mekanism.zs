@@ -6,6 +6,7 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.mods.IMod;
 import mods.appliedenergistics2.Inscriber;
+import crafttweaker.item.IItemTransformer;
 mods.mekanism.infuser.removeRecipe(<mekanism:controlcircuit:0>);
 mods.mekanism.infuser.removeRecipe(<mekanism:enrichedalloy>);
 mods.mekanism.infuser.removeRecipe(<mekanism:enrichediron>);
@@ -18,14 +19,19 @@ recipes.removeByRecipeName("mekanism:transmitter_0");
 recipes.removeByRecipeName("mekanism:transmitter_0_alt");
 recipes.removeByRecipeName("mekanism:transmitter_0_alt_alt");
 recipes.removeByRecipeName("mekanism:transmitter_0_alt_alt_alt");
+recipes.removeByRecipeName("mekanism:transmitter_6");
+recipes.removeByRecipeName("mekanism:transmitter_6_alt");
+recipes.removeByRecipeName("mekanism:transmitter_6_alt_alt");
+recipes.removeByRecipeName("mekanism:transmitter_6_alt_alt_alt");
 // lord give me one more chance
-for items in <ore:hammers>.items {
+for item in <ore:hammers>.items {
 recipes.addShaped("transmitter!!!!!!! wooo!!!!!!!!!!!!!!!", <mekanism:transmitter:0>.withTag({tier:0}) * 4, [
-	[null, items.anyDamage().marked("bonk"), null],
+	[null, items.anyDamage().transformDamage(1), null],
 	[<ore:plateSteel>, <ore:ingotConductiveIron>, <ore:plateSteel>],
-	[null, null, null]], 
-	function(out, ins, cInfo)
-	{
-	return ins.bonk.withDamage(max(0, ins.bonk.damage - 1));
-	}, null);
+	[null, null, null]]);
+// alt alt alt alt alt 
+recipes.addShaped("heat!!!!!!! wooo!!!!!!!!!!!!!!!", <mekanism:transmitter:6>.withTag({tier:0}) * 4, [
+	[null, items.anyDamage().transformDamage(1), null],
+	[<ore:plateSteel>, <ore:copperIngot>, <ore:plateSteel>],
+	[null, null, null]]);
 }
