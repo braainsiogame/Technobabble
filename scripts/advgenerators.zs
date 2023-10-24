@@ -10,8 +10,7 @@ import mods.appliedenergistics2.Grinder;
 
 // don't mind me i'm just being sure
 
-<ore:circuitBasic>.add(<advgenerators:controller>);
-// no easy t1 circuit for you
+
 recipes.remove(<advgenerators:controller>);
 function surroundanitem(surrounder as IItemStack,
 						encircled as IItemStack,
@@ -39,7 +38,7 @@ recipes.remove(<advgenerators:iron_frame>);
 recipes.addShapeless("iron frame", <advgenerators:iron_frame> * 2, [<ore:itemQuartzKnife>.transformDamage(5), <ore:plateIron>]);
 recipes.addShaped(<advgenerators:turbine_controller>, [
 	[<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>],
-	[<minecraft:iron_ingot>, <ore:circuitBasic>, <minecraft:iron_ingot>],
+	[<minecraft:iron_ingot>, <minecraft:lever>, <minecraft:iron_ingot>],
 	[<minecraft:iron_ingot>, <advgenerators:pressure_valve>, <minecraft:iron_ingot>]]);
 recipes.addShapeless(<advgenerators:steam_turbine_controller>, [<advgenerators:turbine_controller>]);
 recipes.addShapeless(<advgenerators:turbine_controller>, [<advgenerators:steam_turbine_controller>]);
