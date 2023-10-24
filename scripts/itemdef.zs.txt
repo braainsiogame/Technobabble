@@ -1,0 +1,27 @@
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+//this is just for quick looking 
+val ChargedCertusQuartz = <appliedenergistics2:material:1>
+val CertusQuartzDust = <appliedenergistics2:material:2>
+val NetherQuartzDust = <appliedenergistics2:material:3>
+val Flour = <appliedenergistics2:material:4>
+val Silicon = <appliedenergistics2:material:5>
+val MatterBall = <appliedenergistics2:material:6>
+val FluixCrystal = <appliedenergistics2:material:7>
+val FluixDust = <appliedenergistics2:material:8>
+val FluixPearl = <appliedenergistics2:material:9>
+val PureCertusQuartzCrystal =< appliedenergistics2:material:10>
+val PureFluixCrystal = <appliedenergistics2:material:12>
+val PureNetherQuartzCrystal = <appliedenergistics2:material:11>
+val InscriberCalculationPress = <appliedenergistics2:material:13>
+val InscriberEngineeringPress = <appliedenergistics2:material:14>
+val InscriberLogicPress = <appliedenergistics2:material:15>
+val InscriberSiliconPress = <appliedenergistics2:material:16>
+val PCalculation = <appliedenergistics2:material:17>
+val PEngineering = <appliedenergistics2:material:18>
+val PLogic = <appliedenergistics2:material:19>
+val PSilicon = <appliedenergistics2:material:20>
+
