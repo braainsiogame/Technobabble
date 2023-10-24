@@ -18,8 +18,14 @@ recipes.removeByRecipeName("mekanism:transmitter_0");
 recipes.removeByRecipeName("mekanism:transmitter_0_alt");
 recipes.removeByRecipeName("mekanism:transmitter_0_alt_alt");
 recipes.removeByRecipeName("mekanism:transmitter_0_alt_alt_alt");
-
-recipes.addShaped(<mekanism:transmitter:0>.withTag({tier:0}) * 4, [
-	[null, <ore:hammers>.transformDamage(1), null],
+// lord give me one more chance
+for items in <ore:hammers>.items {
+recipes.addShaped("transmitter!!!!!!! wooo!!!!!!!!!!!!!!!", <mekanism:transmitter:0>.withTag({tier:0}) * 4, [
+	[null, items.anyDamage().marked("bonk"), null],
 	[<ore:plateSteel>, <ore:ingotConductiveIron>, <ore:plateSteel>],
-	[null, null, null]]);
+	[null, null, null]], 
+	function(out, ins, cInfo)
+	{
+	return ins.bonk.withDamage(max(0, ins.bonk.damage - 1));
+	}, null);
+}

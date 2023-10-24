@@ -6,13 +6,16 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.mods.IMod;
 import crafttweaker.item.IItemTransformer;
-
-recipes.addShapeless("steelframeplate", <contenttweaker:steelframeplate> * 2 , [<advgenerators:iron_frame>, <ore:plateSteel>, <ore:hammers>.transformDamage(1)]);
+for items in <ore:hammers>.items {
+recipes.addShapeless("steelframeplate", <contenttweaker:steelframeplate> * 2 , [<advgenerators:iron_frame>, <ore:plateSteel>, items.anyDamage().transformDamage(1)]);
+}
 recipes.addShaped(<thermalfoundation:material:96>, [
 	[<ore:dustIron>, <ore:dustCoal>],
 	[<ore:dustCoal>, <ore:dustIron>]]);
-recipes.addShapeless("silicon plate", <libvulpes:productplate:3> * 6, [<ore:itemQuartzKnife>.transformDamage(5), <libvulpes:productboule:3>]);
-recipes.addShapeless("silicon boule", <appliedenergistics2:material:5> * 2, [<ore:itemQuartzKnife>.transformDamage(5), <libvulpes:productplate:3>]);
+for items in <ore:itemQuartzKnife>.items {
+recipes.addShapeless("silicon plate", <libvulpes:productplate:3> * 6, [items.anyDamage().transformDamage(5), <libvulpes:productboule:3>]);
+recipes.addShapeless("silicon boule", <appliedenergistics2:material:5> * 2, [items.anyDamage().transformDamage(5), <libvulpes:productplate:3>]);
+}
 recipes.remove(<mekanism:basicblock:8>);
 recipes.remove(<cyclicmagic:item_pipe>);
 recipes.remove(<cyclicmagic:energy_pipe>);
