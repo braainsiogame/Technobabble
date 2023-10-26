@@ -14,7 +14,7 @@ recipes.addShaped(<thermalfoundation:material:96>, [
 	[<ore:dustCoal>, <ore:dustIron>]]);
 for items in <ore:itemQuartzKnife>.items {
 recipes.addShapeless("silicon plate", <libvulpes:productplate:3> * 6, [items.anyDamage().transformDamage(5), <libvulpes:productboule:3>.anyDamage().transformDamage(1)]);
-recipes.addShapeless("silicon boule", <appliedenergistics2:material:5> * 2, [items.anyDamage().transformDamage(5), <libvulpes:productplate:3>.anyDamage().transformDamage(1)]);
+recipes.addShapeless("silicon boule", <appliedenergistics2:material:5> * 2, [items.anyDamage().transformDamage(5), <libvulpes:productplate:3>]);
 }
 recipes.remove(<mekanism:basicblock:8>);
 recipes.remove(<cyclicmagic:item_pipe>);
