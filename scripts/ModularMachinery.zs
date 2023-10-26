@@ -21,7 +21,7 @@ recipes.remove(<thermalexpansion:frame:0>); //machine
 recipes.remove(<thermalexpansion:frame:64>); //device
 
 //mods.modularmachinery.RecipeBuilder.newBuilder(String recipeRegistryName, String associatedMachineRegistryName, int processingTickTime);
-val redstoneServo = mods.modularmachinery.RecipeBuilder.newBuilder("redstoneServo", "assemblermachine", 180);
+/*val redstoneServo = mods.modularmachinery.RecipeBuilder.newBuilder("redstoneServo", "assemblermachine", 180);
 	redstoneServo.addItemInput(<minecraft:redstone> * 2);
 	redstoneServo.addItemInput(<minecraft:iron_ingot>);
 	redstoneServo.addItemOutput(<thermalfoundation:material:512>);
@@ -70,6 +70,5 @@ val BasicUniversalCable = mods.modularmachinery.RecipeBuilder.newBuilder("BasicU
 	BasicUniversalCable.addItemInput(<ore:ingotConductiveIron>);
 	BasicUniversalCable.addItemOutput(<mekanism:transmitter:0> * 8);
 	BasicUniversalCable.addEnergyPerTickInput(200);
-	BasicUniversalCable.build();
-// i think i fucked up
-// i misspelled 
+	BasicUniversalCable.build();*/
+// modifiers.......
