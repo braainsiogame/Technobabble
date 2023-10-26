@@ -29,6 +29,10 @@ steelframeplate.register();
 var boulecast = VanillaFactory.createItem("boulecast");
 boulecast.maxStackSize = 64;
 boulecast.register();
+// i think this fits here?
+<libvulpes:productboule:3>.showsDurabilityBar = true 
+<libvulpes:productboule:3>.isDamageable = true 
+<libvulpes:productboule:3>.maxDamage = 6
 //i stole from nomifactory btw
 //        name                          color       gas?    viscosity   rarity      light
 makeFluid("moltenunrefinedsilicon",      383838,     false,  10000,      "COMMON",       7);
