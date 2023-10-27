@@ -7,16 +7,54 @@ echo "What's the localized name? (string)"
 
 read localizedname 
 
-echo "Do you need a blueprint? (boolean)"
+echo "Do you need a blueprint? (Y/N)"
 
 read blueprintrequired
-if [ $blueprintrequired != "true" ] && [ $blueprintrequired != "false" ] 
+if [ $blueprintrequired = "Y" ] 
 then 
-echo "you will regret not using a boolean"
+echo "Blueprint is required"
+blueprintrequired = "true"
+elif [ $blueprintrequired = "N" ]
+echo "Blueprint is not required"
+blueprintrequired = "false"
+else 
+echo "Wrong option motherfucker"
+
 fi
-echo "What are the parts needed? (use a blueprint to json tool)"
+echo "Dimension?"
+echo "Shape:"
+read Shape 
+if [ $shape = "cube" ] 
+then 
+echo "Length?"
+read cubic
+x = $cubic
+y = $cubic
+z = $cubic
+elif [ $shape = "rectangle" ] || [ $shape = "cuboid" ] 
+then   
+echo "Length?"
+read x 
+echo "Width?"
+read y 
+echo "Height?"
+read z
+else 
+echo "Go do it yourself using a structure to json tool"
+fi 
+echo "Modifier? (Y/N)"
+read modifier 
+if [ $modifier = "Y" ] 
+then 
+break
+elif [ $modifier = "N" ]
+then 
+echo "How many blocks are changed?"
+read blockschanged
+if [ $blockschanged = 
+else
+echo "WRONG OPTION MOTHERFUCKER
+fi 
+echo "Results:"
 
-read parts 
-
-echo "done"
 done
