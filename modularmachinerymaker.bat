@@ -23,7 +23,12 @@ then
 			blueprintrequired="false"
 fi
 echo "Shape:"
-// bruh
+echo "x:"
+read x 
+echo "y:"
+read y 
+echo "z:"
+read z
 echo "Modifier? (Y/N)"
 read modifier 
 if [ $modifier = "N" ] 
@@ -40,5 +45,7 @@ do
 done 
 fi 
 echo "Results:"
-
+echo "{" 
+echo ""registryName": ${registryname}"
+echo ""localizedName": ${localizedname}"
 done
