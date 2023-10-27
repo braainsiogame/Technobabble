@@ -10,28 +10,28 @@ read localizedname
 echo "Do you need a blueprint? (Y/N)"
 
 read blueprintrequired
-if [ $blueprintrequired = "Y" ] 
+if [ $blueprintrequired = Y ] 
 then 
-echo "Blueprint is required"
-blueprintrequired = "true"
-elif [ $blueprintrequired = "N" ]
-echo "Blueprint is not required"
-blueprintrequired = "false"
-else 
-echo "Wrong option motherfucker"
-
+	echo "Blueprint is required"
+		blueprintrequired="true"
+	elif [ $blueprintrequired = "N" ]
+	then
+		echo "Blueprint is not required"
+		blueprintrequired="false"
+	else
+			echo "Wrong option motherfucker, setting option to I DO NOT CARE."
+			blueprintrequired="false"
 fi
-echo "Dimension?"
 echo "Shape:"
 read Shape 
-if [ $shape = "cube" ] 
+if [[ $shape = "cube" ]] 
 then 
 echo "Length?"
 read cubic
-x = $cubic
-y = $cubic
-z = $cubic
-elif [ $shape = "rectangle" ] || [ $shape = "cuboid" ] 
+x"="$cubic
+y"="$cubic
+z"="$cubic
+elif [[ $shape = "rectangle" ]] || [[ $shape = "cuboid" ]] 
 then   
 echo "Length?"
 read x 
@@ -44,16 +44,18 @@ echo "Go do it yourself using a structure to json tool"
 fi 
 echo "Modifier? (Y/N)"
 read modifier 
-if [ $modifier = "Y" ] 
+if [ $modifier = "N" ] 
 then 
 break
-elif [ $modifier = "N" ]
+elif [ $modifier = "Y" ]
 then 
 echo "How many blocks are changed?"
 read blockschanged
-if [ $blockschanged = 
-else
-echo "WRONG OPTION MOTHERFUCKER
+while blockschanged > 0 
+do
+	blockschanged--
+	echo "WRONG OPTION MOTHERFUCKER"
+done 
 fi 
 echo "Results:"
 
