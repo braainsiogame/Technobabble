@@ -32,7 +32,6 @@ echo "Invalid type!"
 while [ $input != "energy"] && [ $input != "fluid"] && [ $input != "item"] 
 do
 echo "Please reenter the type"
-done 
 read input
- 
+done 
 done 
