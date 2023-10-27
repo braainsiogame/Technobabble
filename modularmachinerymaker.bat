@@ -23,25 +23,7 @@ then
 			blueprintrequired="false"
 fi
 echo "Shape:"
-read Shape 
-if [[ $shape = "cube" ]] 
-then 
-echo "Length?"
-read cubic
-x"="$cubic
-y"="$cubic
-z"="$cubic
-elif [[ $shape = "rectangle" ]] || [[ $shape = "cuboid" ]] 
-then   
-echo "Length?"
-read x 
-echo "Width?"
-read y 
-echo "Height?"
-read z
-else 
-echo "Go do it yourself using a structure to json tool"
-fi 
+// bruh
 echo "Modifier? (Y/N)"
 read modifier 
 if [ $modifier = "N" ] 
