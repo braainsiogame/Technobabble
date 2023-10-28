@@ -45,15 +45,19 @@ declare -a var_"$hector"
 echo "x?"
 read x 
 set var_"$hector"+="$x"
+let "x = 0"
 echo "y?"
 read y 
 set var_"$hector"+="$y"
+let "y = 0"
 echo "z?"
 read z 
 set var_"$hector"+="$z"
+let "z = 0"
 echo "Elements:"
 read Elements
-set var_"$hector"+="$Elements"
+set var_"$hector"+="$Elements
+let "Elements = 0"
 parts+=("$var_"$hector"")
 if [ "$icannotdesigninthefuture" = 1 ]
 then 
@@ -73,7 +77,7 @@ echo "Modifier? (Y/N)"
 read modifier 
 if [ "$modifier" = "N" ] 
 then
-echo "yeah"
+echo "nah"
 elif [ "$modifier" = "Y" ]
 then 
 echo "yeah"
@@ -84,14 +88,23 @@ do
   do 
   echo "${elements}"
   done
-done
-echo "How many blocks are changed?"
-read blockschanged
-while [ "$blockschanged" -gt 0  ]
+  echo "Can you determine the exact amount of modified elements you'll need in the future? (Y/N)"
+read bruh1
+if [ "$bruh1" = Y ]                                                                                   then
+declare icannotdesigninthefuture1=0
+echo "How many elements?"
+read walter 
+else
+declare icannotdesigninthefuture1=1
+let "walter=1"
+fi
+while [ "walter" -gt 0 ] 
 do
-	blockschanged--
-	echo "WRONG OPTION MOTHERFUCKER"
-done  
+declare -a bar_"&walter"
+echo "x:"
+read 
+read 
+done
 echo "Results:"
 echo "\{" 
 echo " \"registryName\": \"${registryname}\",   "
