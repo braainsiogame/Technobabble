@@ -1,74 +1,5 @@
 {
-	"registryName": "assemblermachine",
-	"localizedname": "Assembler Machine",
-	"color": "5f6661",
-	 "modifiers:" [
-                {
-                        {
-				"x": 0,
-				"y": 1,
-				"z": 1,
-				"elements": [
-					"libvulpes:motor"
-				]       }                        }
-                        "modifier": {
-                                "io": "output",
-                                "target": "duration",
-                                "operation": "1",
-                                "multiplier": "1",
-                                "affectChance": "false",
-                        }
-                }
-                {
-                        {
-				"x": 0,
-				"y": 1,
-				"z": 1,
-				"elements": [
-					"libvulpes:advancedmotor"
-				]       }                        }
-                        "modifier": {
-                                "io": "output",
-                                "target": "duration",
-                                "operation": "1",
-                                "multiplier": "0.75",
-                                "affectChance": "false",
-                        }
-                }
-                {
-                        {
-				"x": 0,
-				"y": 1,
-				"z": 1,
-				"elements": [
-					"libvulpes:enhancedmotor"
-				]       }                        }
-                        "modifier": {
-                                "io": "output",
-                                "target": "duration",
-                                "operation": "1",
-                                "multiplier": "0.5",
-                                "affectChance": "false",
-                        }
-                }
-                {
-                        {
-				"x": 0,
-				"y": 1,
-				"z": 1,
-				"elements": [
-					"libvulpes:elitemotor"
-				]       }
-                        "modifier": {
-                                "io": "output",
-                                "target": "duration",
-                                "operation": "1",
-                                "multiplier": "0.25",
-                                "affectChance": "false",
-                        }
-                }
-                ],
- "parts": [
+    "parts": [
         {
             "x": -1,
             "y": 0,
@@ -277,4 +208,4 @@
                 "casings_all"
             ]
         }
-    ]
+    ]}

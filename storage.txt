@@ -1,0 +1,43 @@
+declare highest
+declare exit
+declare hector
+echo "Can you determine the exact amount of elements you'll need in the future? (Y/N)"
+read bruh 
+if [ "$bruh" = Y ] 
+then 
+declare icannotdesigninthefuture=0
+echo "How many elements?"
+read hector
+let "hector = highest"
+else
+declare icannotdesigninthefuture=1
+let "hector=1"
+fi
+echo "Parts"
+echo "Tips: You can also use [1, 0, -1] https://github.com/HellFirePvP/ModularMachinery/wiki/8.-Custom-Machines:-Machine-Format---Position-Permutations-%5BAdvanced%5D"
+while [[ "$hector" -gt 0 ]]
+do
+declare -a "cmon"$hector""
+echo "x?"
+read -a x "cmon"$hector""
+echo "y?"
+read -a y "cmon"$hector""
+echo "z?"
+read -a z "cmon"$hector""
+echo "Elements:"
+read -a Elements "cmon"$hector""
+let "Elements = 0"
+if [ "$icannotdesigninthefuture" = 1 ]
+	then 
+	echo "are we done here? (Y/N)"
+	read maybe
+	if [ "$maybe" = "Y" ] 
+		then 
+		let "hector=0"
+	else 
+		let "highest+=1"
+	let "hector=1"
+	fi
+else 
+let "hector+=-1"
+fi
