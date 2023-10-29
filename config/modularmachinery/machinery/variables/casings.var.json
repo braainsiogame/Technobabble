@@ -28,6 +28,6 @@
         "libvulpes:motor",
 		"libvulpes:advancedmotor",
 		"libvulpes:enhancedmotor",
-		"libvulpes:elitemotor",
-    ],
+		"libvulpes:elitemotor"
+    ]
 }
