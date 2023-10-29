@@ -1,0 +1,12 @@
+{
+    "parts": [
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "nbt": {"id":"minecraft:tilecolorablemachinecomponent","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d","shieldingRadResistance":"0.0d"}},"casingColor":"16730368"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        }
+    ]}

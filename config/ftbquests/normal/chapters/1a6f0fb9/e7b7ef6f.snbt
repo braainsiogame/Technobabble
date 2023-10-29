@@ -1,0 +1,157 @@
+{
+	title: "Gathering resources",
+	x: -11.5d,
+	y: -4.5d,
+	text: [
+		"To start out from this world, you will have to start gathering these items before *hell*."
+	],
+	dependencies: [
+		"e41df418"
+	],
+	tasks: [{
+		uid: "436960ac",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotIron"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotIron"
+				}
+			}
+		}],
+		count: 8L,
+		consume_items: false
+	},
+	{
+		uid: "07c3285a",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotGold"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotGold"
+				}
+			}
+		}],
+		count: 8L,
+		consume_items: false
+	},
+	{
+		uid: "23342904",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotCopper"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotCopper"
+				}
+			}
+		}],
+		count: 8L,
+		consume_items: false
+	},
+	{
+		uid: "def001e0",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotTin"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotTin"
+				}
+			}
+		}],
+		count: 8L,
+		consume_items: false
+	},
+	{
+		uid: "1f33255f",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotSilver"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotSilver"
+				}
+			}
+		}],
+		count: 8L,
+		consume_items: false
+	},
+	{
+		uid: "8f7ce7f7",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotLead"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotLead"
+				}
+			}
+		}],
+		count: 8L,
+		consume_items: false
+	},
+	{
+		uid: "a7c24023",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any itemCoal"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "itemCoal"
+				}
+			}
+		}],
+		count: 16L,
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "99b779c6",
+		type: "item",
+		item: "thermalfoundation:coin",
+		count: 8
+	}]
+}
