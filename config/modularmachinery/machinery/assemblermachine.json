@@ -1,0 +1,229 @@
+{
+	"registryName": "assemblermachine",
+	"localizedname": "Assembler Machine",
+    "modifiers": [
+		{
+            "elements": "libvulpes:advancedmotor",
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "description": "Replace the Motor block in the machinery to make the recipe 2x faster",
+            "modifier": {
+                "target": "duration",
+                "io": "output",
+                "operation": 1,
+                "multiplier": 0.5
+            }
+        }
+    ],
+ "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "motors"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        }
+    ]
+}
