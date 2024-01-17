@@ -1,2 +1,1 @@
-# minecraft-modpack
-This is a placeholder.
+<h1>hey this is abandoned so uhh... yeah?</h1>
